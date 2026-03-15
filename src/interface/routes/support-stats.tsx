@@ -8,7 +8,6 @@ import { getConfigForSpec } from 'parser/getConfig';
 import GameBranch from 'game/GameBranch';
 import { SupportLevel, configName } from 'parser/Config';
 import { i18n } from '@lingui/core';
-import styled from '@emotion/styled/macro';
 import {
   BadMark,
   GoodMark,
@@ -22,6 +21,7 @@ import {
   evaluateQualitativePerformanceByThreshold,
 } from 'parser/ui/QualitativePerformance';
 import Changelog from 'interface/Changelog';
+import { styled } from 'next-yak';
 
 export function Component(): JSX.Element {
   const [data, setData] = useState<Array<[Spec, Partial<ServerMetrics<Aggregate>>]>>();
