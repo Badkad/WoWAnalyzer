@@ -1,7 +1,7 @@
 import { styled } from 'next-yak';
 // force this to load if you render EmbeddedTimelineContainer
 import './Timeline.scss';
-import { useMemo, useRef, useState } from 'react';
+import React, { useMemo, useRef, useState } from 'react';
 import { useAnalyzer, useEvents, useInfo } from 'interface/guide';
 import Auras from 'parser/core/modules/Auras';
 import AuraTimeline from './Auras';
@@ -14,7 +14,6 @@ import { TimelineSettingsContext } from './Settings';
 import { useCombatLogParser } from 'interface/report/CombatLogParserContext';
 import SpellUsable from 'parser/shared/modules/SpellUsable';
 import type Spell from 'common/SPELLS/Spell';
-import React from 'react';
 import DragScroll from 'interface/DragScroll';
 
 /**
@@ -22,7 +21,7 @@ import DragScroll from 'interface/DragScroll';
  *
  * Use `SpellTimeline` component for wrapping the `Casts` component.
  */
-export const EmbeddedTimelineContainer = styled(DragScroll, { shouldForwardProp: isPropValid })<{
+export const EmbeddedTimelineContainer = styled(DragScroll)<{
   secondWidth?: number;
   secondsShown?: number;
   castBarCount?: number;

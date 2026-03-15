@@ -1,6 +1,5 @@
 import type { JSX } from 'react';
 import { styled } from 'next-yak';
-import isPropValid from '@emotion/is-prop-valid';
 import talents from 'common/TALENTS/deathknight';
 import ResourceLink from 'interface/ResourceLink';
 import SpellLink from 'interface/SpellLink';
@@ -117,7 +116,7 @@ export default function DeathStrikeSection() {
                 </>
               }
             >
-              <Explanation as="p">
+              <Explanation>
                 Although you have 6 <ResourceLink id={RESOURCE_TYPES.RUNES.id} />, only 3 can be
                 recharging at a time. You should aim to spend as much time as possible with 3 or
                 more recharging.
@@ -129,7 +128,7 @@ export default function DeathStrikeSection() {
                 {formatPercentage(1 - runes.runeEfficiency)}% of {Math.round(runes.runesMaxCasts)}{' '}
                 total) by having fewer than 3 Runes recharging.
               </p>
-              <Explanation as="p">
+              <Explanation>
                 Remember that <ResourceLink id={RESOURCE_TYPES.RUNES.id} /> cannot be spent directly
                 on defensives! As long as you are not{' '}
                 <Highlight color={WastedRPColor}>wasting</Highlight>{' '}
@@ -228,18 +227,7 @@ function RunicPowerTable() {
 /**
  * A basic colored block. The building block of more complex objects. You MUST supply the height/width yourself.
  */
-const ColoredBlock = styled('div', {
-  shouldForwardProp: (prop) => {
-    switch (prop) {
-      case 'width':
-      case 'height':
-      case 'color':
-        return false;
-      default:
-        return isPropValid(prop);
-    }
-  },
-})<{ color: string; height?: string; width: string }>`
+const ColoredBlock = styled.div<{ color: string; height?: string; width: string }>`
   display: inline-block;
   box-sizing: content-box;
   height: ${(props) => props.height};
@@ -247,7 +235,7 @@ const ColoredBlock = styled('div', {
   background-color: ${(props) => props.color};
 `;
 
-const BlockRow = styled('div', { shouldForwardProp: isPropValid })`
+const BlockRow = styled.div`
   display: inline-flex;
   flex-direction: row;
   gap: 1px;
