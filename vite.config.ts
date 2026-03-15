@@ -104,9 +104,6 @@ export default defineConfig((env) => ({
       ? checker({ typescript: true })
       : undefined,
   ],
-  optimizeDeps: {
-    include: ['@emotion/styled/base'],
-  },
   resolve: {
     alias: {
       analysis: join(__dirname, 'src', 'analysis'),
