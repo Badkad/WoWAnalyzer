@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 
 interface TipBoxProps {
   children: ReactNode;

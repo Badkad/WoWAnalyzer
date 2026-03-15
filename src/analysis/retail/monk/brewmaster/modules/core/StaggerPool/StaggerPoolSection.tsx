@@ -16,7 +16,7 @@ import TranquilSpirit from '../../talents/TranquilSpirit';
 import PurifyingBrew from '../../talents/PurifyingBrew';
 import TouchOfDeathStagger from '../../spells/TouchOfDeathStagger';
 import SPELLS from '../../../spell-list_Monk_Brewmaster.retail';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import * as design from 'interface/design-system';
 import SpellLink from 'interface/SpellLink';
 import Explanation from 'interface/guide/components/Explanation';

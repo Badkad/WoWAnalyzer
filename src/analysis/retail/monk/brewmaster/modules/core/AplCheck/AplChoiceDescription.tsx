@@ -7,7 +7,7 @@ import { SpellSeq } from 'parser/ui/SpellSeq';
 
 import { AplSectionData } from 'interface/guide/components/Apl';
 import { useMemo, type JSX } from 'react';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 
 const blank = {
   id: -1,

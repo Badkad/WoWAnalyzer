@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 
 /**
  * A `div` with `p`-style padding.

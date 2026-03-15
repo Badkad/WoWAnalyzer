@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { ComponentProps } from 'react';
 
 const Img = styled.img`

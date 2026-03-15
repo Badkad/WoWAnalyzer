@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { useEvents } from 'interface/guide';
 import { EventType } from 'parser/core/Events';
 import { Info } from 'parser/core/metric';

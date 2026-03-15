@@ -3,7 +3,7 @@ import Spell from 'common/SPELLS/Spell';
 import { VisualizationSpec } from 'react-vega';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import BaseChart, { formatTime } from 'parser/ui/BaseChart';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import fetchWcl from 'common/fetchWclApi';
 
 const LegendContainer = styled.div`

@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { RoundedPanel } from 'interface/guide/components/GuideDivs';
 
 export const RoundedPanelWithBottomMargin = styled(RoundedPanel)`

@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { QualitativePerformance } from 'parser/ui/QualitativePerformance';
 import { ComponentProps, ReactNode } from 'react';
 import { PerformanceMark, qualitativePerformanceToColor } from 'interface/guide';

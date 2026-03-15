@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import talents from 'common/TALENTS/deathknight';
 import RESOURCE_TYPES, { getResource } from 'game/RESOURCE_TYPES';
 import ResourceLink from 'interface/ResourceLink';

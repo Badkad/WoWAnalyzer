@@ -11,6 +11,7 @@ import { defineConfig } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import svgr from 'vite-plugin-svgr';
 import checker from 'vite-plugin-checker';
+import { viteYak } from 'next-yak/vite';
 
 const GOOGLE_ANALYTICS_SCRIPT = `
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MW95W6NHVC"></script>
@@ -64,9 +65,9 @@ export default defineConfig((env) => ({
   },
   plugins: [
     tsconfigPaths(),
+    viteYak(),
     react({
       plugins: [
-        ['@swc/plugin-emotion', {}],
         // always enabled because it powers the macros
         ['@lingui/swc-plugin', {}],
       ],

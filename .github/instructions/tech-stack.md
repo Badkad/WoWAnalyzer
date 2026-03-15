@@ -23,7 +23,7 @@ This project upgrades dependencies over time. Do not assume specific version num
 
 ```typescript
 // Example component with Emotion styling
-import styled from '@emotion/styled';
+import { styled } from "next-yak";
 import { Trans } from '@lingui/macro';
 
 const Container = styled.div`

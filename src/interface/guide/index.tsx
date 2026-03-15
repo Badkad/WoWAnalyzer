@@ -81,7 +81,7 @@ import { ComponentPropsWithoutRef, createContext, use, useMemo, useState } from 
 
 import './Guide.scss';
 import { QualitativePerformance } from 'parser/ui/QualitativePerformance';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import * as design from 'interface/design-system';
 import StateHistory from 'parser/core/StateHistory';
 

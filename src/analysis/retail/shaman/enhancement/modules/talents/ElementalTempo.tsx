@@ -1,5 +1,5 @@
 import type { JSX } from 'react';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import Analyzer, { Options, SELECTED_PLAYER } from 'parser/core/Analyzer';
 import Events, { CastEvent } from 'parser/core/Events';
 import Abilities from 'parser/core/modules/Abilities';

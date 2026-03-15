@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { Tooltip } from 'interface';
 import { qualitativePerformanceToColor, PerformanceMark } from 'interface/guide';
 import { QualitativePerformance } from 'parser/ui/QualitativePerformance';

@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { InformationIcon } from 'interface/icons';
 import TooltipWrapper from 'interface/Tooltip';
 import SpellLink from 'interface/SpellLink';

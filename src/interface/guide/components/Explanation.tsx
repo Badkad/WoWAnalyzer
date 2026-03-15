@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { ComponentPropsWithoutRef, createContext, ReactNode, use, useMemo } from 'react';
 import useSessionFeatureFlag from 'interface/useSessionFeatureFlag';
 

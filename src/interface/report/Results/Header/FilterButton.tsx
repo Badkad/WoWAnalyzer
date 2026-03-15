@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { formatDuration } from 'common/format';
 import * as design from 'interface/design-system';
 import { useReport } from 'interface/report/context/ReportContext';

@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { formatDuration, formatNumber } from 'common/format';
 import Spell from 'common/SPELLS/Spell';
 import MAGIC_SCHOOLS, { color } from 'game/MAGIC_SCHOOLS';

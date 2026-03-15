@@ -4,7 +4,7 @@ import type { FormEvent, MouseEvent } from 'react';
 import { useEffect, useState } from 'react';
 
 import TimeInput from './TimeInput';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import * as design from 'interface/design-system';
 
 interface Props {

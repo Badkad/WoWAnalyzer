@@ -1,5 +1,5 @@
 import type { JSX } from 'react';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import isPropValid from '@emotion/is-prop-valid';
 import talents from 'common/TALENTS/deathknight';
 import ResourceLink from 'interface/ResourceLink';

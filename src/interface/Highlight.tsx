@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 
 /**
  * An inline text highlight. Like using the highlight functionality in Word or Docs.

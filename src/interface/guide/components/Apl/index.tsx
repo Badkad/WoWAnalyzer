@@ -1,5 +1,5 @@
 import { useMemo, useState, type JSX } from 'react';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { useEvents, useInfo } from 'interface/guide';
 import aplCheck, { Apl, CheckResult } from 'parser/shared/metrics/apl';
 

@@ -2,7 +2,7 @@
  * Layout primitives used widely across analysis modules.
  * Component-specific styles have moved: see GuideDataWrapper, CastDetail, CastSequence, BuffUptimeBar.
  */
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { QualitativePerformance } from 'parser/ui/QualitativePerformance';
 import { PropsWithChildren } from 'react';
 import { qualitativePerformanceToColor } from 'interface/guide';

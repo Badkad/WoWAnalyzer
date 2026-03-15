@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { formatDuration, formatNumber } from 'common/format';
 import { SpellLink, Tooltip } from 'interface';
 import { GoodColor, useAnalyzer, useEvents, useInfo } from 'interface/guide';

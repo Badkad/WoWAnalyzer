@@ -1,5 +1,5 @@
 import Spell from 'common/SPELLS/Spell';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { formatDuration } from 'common/format';
 import { ControlledExpandable } from 'interface';
 import { useFight } from 'interface/report/context/FightContext';

@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { formatPercentage } from 'common/format';
 import { useEvents, useInfo } from 'interface/guide';
 import ProblemList, {

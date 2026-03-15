@@ -1,5 +1,4 @@
-import styled from '@emotion/styled';
-import isPropValid from '@emotion/is-prop-valid';
+import { styled } from 'next-yak';
 // force this to load if you render EmbeddedTimelineContainer
 import './Timeline.scss';
 import { useMemo, useRef, useState } from 'react';

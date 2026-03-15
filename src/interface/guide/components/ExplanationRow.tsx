@@ -1,5 +1,5 @@
 import { ReactNode, type JSX } from 'react';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { SubSection } from 'interface/guide/index';
 import Explanation, { useExplanationContext } from 'interface/guide/components/Explanation';
 

@@ -10,7 +10,7 @@ import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
 import Combatant from 'parser/core/Combatant';
 import Spell from 'common/SPELLS/Spell';
 import { addAdditionalCastInformation } from 'parser/core/EventMetaLib';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { isMythicPlus } from 'common/isMythicPlus';
 
 interface MasterOfTheElementsSpellConfig {

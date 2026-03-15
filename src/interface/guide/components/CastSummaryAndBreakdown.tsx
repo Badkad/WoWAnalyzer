@@ -6,7 +6,7 @@ import Spell from 'common/SPELLS/Spell';
 import SpellLink from 'interface/SpellLink';
 import { QualitativePerformance } from 'parser/ui/QualitativePerformance';
 import CastPerformanceSummary from 'analysis/retail/demonhunter/shared/guide/CastPerformanceSummary';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 
 const CastSummaryAndBreakdownContainer = styled.div`
   margin-bottom: 10px;

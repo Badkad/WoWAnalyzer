@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { formatNumber } from 'common/format';
 import ROLES from 'game/ROLES';
 import { ByRole, Role } from 'interface/guide/foundation/ByRole';

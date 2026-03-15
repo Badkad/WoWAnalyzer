@@ -1,5 +1,5 @@
 import { ReactNode, type JSX } from 'react';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import Spell from 'common/SPELLS/Spell';
 import { Tooltip } from 'interface';
 import { formatPercentage } from 'common/format';

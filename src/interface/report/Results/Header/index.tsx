@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { i18n } from '@lingui/core';
 import { defineMessage } from '@lingui/core/macro';
 import { findZoneByBossId, type Boss } from 'game/raids';

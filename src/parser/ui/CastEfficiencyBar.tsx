@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { ReactNode, type JSX } from 'react';
 import { CooldownBar, CooldownWindow, GapHighlight } from 'parser/ui/CooldownBar';
 import { SpellIcon, SpellLink, TooltipElement } from 'interface';

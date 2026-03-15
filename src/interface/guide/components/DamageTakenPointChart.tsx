@@ -1,5 +1,5 @@
 import { useMemo, type JSX } from 'react';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import * as MAGIC_SCHOOLS from 'game/MAGIC_SCHOOLS';
 import SpellLink from 'interface/SpellLink';
 import Tooltip from 'interface/Tooltip';

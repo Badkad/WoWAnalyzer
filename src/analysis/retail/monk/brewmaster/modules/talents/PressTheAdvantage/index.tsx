@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import SPELLS from 'common/SPELLS';
 import talents from 'common/TALENTS/monk';
 import { SpellLink } from 'interface';

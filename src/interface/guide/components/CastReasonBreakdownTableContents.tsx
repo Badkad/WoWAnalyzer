@@ -1,6 +1,6 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import PassFailBar from './PassFailBar';
-import { ElementType, ReactNode, type JSX } from 'react';
+import { type JSX, ReactNode } from 'react';
 
 interface CastData<Reason> {
   reason: Reason;
@@ -9,7 +9,6 @@ interface CastData<Reason> {
 interface Props<Reason, Data extends CastData<Reason>> {
   casts: Data[];
   label: (reason: Reason) => ReactNode;
-  containerType?: ElementType;
   possibleReasons: Reason[];
   badReason?: Reason;
 }
@@ -35,7 +34,6 @@ export default function CastReasonBreakdownTableContents<Reason, Data extends Ca
   casts,
   label,
   possibleReasons,
-  containerType,
   badReason,
 }: Props<Reason, Data>): JSX.Element {
   const counts = casts.reduce<Map<Reason, number>>((total, { reason }) => {
@@ -46,7 +44,7 @@ export default function CastReasonBreakdownTableContents<Reason, Data extends Ca
   const total = casts.length;
 
   return (
-    <Container as={containerType}>
+    <Container>
       {possibleReasons.map((reason, index) => (
         <ReasonRow key={index} bad={reason === badReason}>
           <td>{label(reason)}</td>

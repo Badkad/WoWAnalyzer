@@ -1,5 +1,5 @@
 import type { JSX } from 'react';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { OkMark } from '../index';
 import { TooltipElement } from 'interface/Tooltip';
 import { Trans, defineMessage } from '@lingui/macro';

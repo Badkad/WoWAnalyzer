@@ -1,5 +1,5 @@
 import { ReactNode, type JSX } from 'react';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { useAnalyzer, useInfo } from 'interface/guide';
 import { formatDuration, formatNumber } from 'common/format';
 import { SpellLink, Tooltip } from 'interface';

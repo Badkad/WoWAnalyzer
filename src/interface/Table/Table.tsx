@@ -1,5 +1,5 @@
 import * as design from 'interface/design-system';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { JSX } from 'react';
 import Select from 'interface/controls/Select';
 

@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import ROLES from 'game/ROLES';
 import { ComponentProps } from 'react';
 

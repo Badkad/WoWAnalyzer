@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { formatNumber } from 'common/format';
 import { color } from 'game/MAGIC_SCHOOLS';
 import { TooltipElement } from 'interface';

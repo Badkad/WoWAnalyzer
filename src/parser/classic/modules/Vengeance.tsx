@@ -11,7 +11,7 @@ import BaseChart, { formatTime } from 'parser/ui/BaseChart';
 import { VisualizationSpec } from 'react-vega';
 import MAGIC_SCHOOLS, { color } from 'game/MAGIC_SCHOOLS';
 import { formatNumber } from 'common/format';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 
 interface AttackPowerEvent {
   attackPower: number;

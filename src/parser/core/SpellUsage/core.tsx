@@ -4,7 +4,7 @@ import {
 } from 'parser/ui/QualitativePerformance';
 import { createContext, ReactNode, use, useMemo } from 'react';
 import { AnyEvent } from 'parser/core/Events';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { formatDuration } from 'common/format';
 import { PerformanceMark } from 'interface/guide';
 import { BoxRowEntry } from 'interface/guide/components/PerformanceBoxRow';

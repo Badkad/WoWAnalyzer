@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import * as design from 'interface/design-system';
 
 const Select = styled.select`

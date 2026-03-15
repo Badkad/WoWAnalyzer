@@ -1,5 +1,5 @@
 import { BadColor, OkColor, PerformanceMark, SubSection, useInfo } from 'interface/guide';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import {
   ComponentPropsWithoutRef,
   Fragment,

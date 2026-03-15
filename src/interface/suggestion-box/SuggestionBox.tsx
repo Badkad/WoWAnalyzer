@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { BadMark, GoodMark, PerfectMark } from 'interface/guide';
 import { QualitativePerformance } from 'parser/ui/QualitativePerformance';
 import { ReactNode, useState, type JSX } from 'react';

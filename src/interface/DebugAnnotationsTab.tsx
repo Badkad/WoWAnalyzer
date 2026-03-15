@@ -4,7 +4,7 @@ import DebugAnnotations, {
   ModuleAnnotations,
 } from 'parser/core/modules/DebugAnnotations';
 import Tooltip from './Tooltip';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { Ability, AnyEvent, HasAbility, HasSource, HasTarget } from 'parser/core/Events';
 import { useMemo, useState, useCallback } from 'react';
 import { useCombatLogParser } from './report/CombatLogParserContext';

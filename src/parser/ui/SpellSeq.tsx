@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import Spell from 'common/SPELLS/Spell';
 import { Fragment } from 'react';
 import { SpellIcon } from 'interface';

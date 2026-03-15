@@ -25,7 +25,7 @@ import { ByRole, Role } from './ByRole';
 import { useFight } from 'interface/report/context/FightContext';
 import { EncounterTimelineAbility, findByBossId } from 'game/raids';
 import Para from '../Para';
-import styled from '@emotion/styled';
+import { styled } from 'next-yak';
 import { memo, useMemo, type JSX } from 'react';
 import SegmentTimeline, {
   DisplaySegment,
